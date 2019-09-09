@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        key="b6907d289e10d714a6e88b30761fae22";
+        key="your_key_here";
         url = "https://openweathermap.org/data/2.5/weather?q="+ tv_city.getText().toString() + "&appid=" + key;
         try {
             myurl = new URL(url);
